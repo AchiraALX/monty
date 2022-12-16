@@ -84,7 +84,7 @@ We used malloc and free and are not allowed to use any other function from man m
 <ul>
   <li>Language: C programming language, Bash</li>
   <li>Operating System: Ubuntu 14.04 LTS (Trusty64)</li>
-  <li>Style: berry</li>
+  <li>Style: betty</li>
   <li>Compiler: gcc</li>
   <li>Version Control: Git</li>
 </ul>
