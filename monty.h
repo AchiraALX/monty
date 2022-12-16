@@ -53,7 +53,7 @@ typedef struct instruction_s
 		{"add", _add},\
 		{"sub", _sub},\
 		{"mod", mod},\
-		{"p_char", p_char},\
+		{"pchar", pchar},\
 		{"pstr", pstr},\
 		{"rotl", rotl},\
 		{"rotr", rotr},\
@@ -86,7 +86,7 @@ void _add(stack_t **stack, unsigned int line_cnt);
 void _sub(stack_t **stack, unsigned int line_cnt);
 void _mul(stack_t **stack, unsigned int line_cnt);
 void mod(stack_t **stack, unsigned int line_cnt);
-void p_char(stack_t **stack, unsigned int line_cnt);
+void pchar(stack_t **stack, unsigned int line_cnt);
 void pstr(stack_t **stack, unsigned int line_cnt);
 void rotl(stack_t **stack, unsigned int line_count);
 void rotr(stack_t **stack, unsigned int line_count);

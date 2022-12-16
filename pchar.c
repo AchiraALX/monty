@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * p_char - prints the int at the top of the stack as char
+ * pchar - prints the int at the top of the stack as char
  *
  * @stack: stack given by main
  *
@@ -10,17 +10,17 @@
  * Return: void
  */
 
-void p_char(stack_t **stack, unsigned int line_cnt)
+void pchar(stack_t **stack, unsigned int line_cnt)
 {
 	if (!stack || !(*stack))
 	{
-		fprintf(stderr, "L%d: can't p_char, stack empty\n", line_cnt);
+		fprintf(stderr, "L%d: can't pchar, stack empty\n", line_cnt);
 		status = EXIT_FAILURE;
 		return;
 	}
 	if (isascii((*stack)->n) == 0)
 	{
-		fprintf(stderr, "L%d: can't p_char, value out of range\n", line_cnt);
+		fprintf(stderr, "L%d: can't pchar, value out of range\n", line_cnt);
 		status = EXIT_FAILURE;
 		return;
 	}
