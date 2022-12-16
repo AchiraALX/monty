@@ -92,5 +92,5 @@ We used malloc and free and are not allowed to use any other function from man m
 <h3>
   Author
 </h3>
-<p>Michael Sosa <a href="https://www.linkedin.com/in/michael-sosa/" rel="nofollow">Linkedin</a> || <a href="https://twitter.com/micael_sosa" rel="nofollow">Twitter: @micael_sosa</a></p>
+@AchiraALX
 <hr>
